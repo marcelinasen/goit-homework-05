@@ -1,19 +1,19 @@
-## GoIT homework: testing HTTP API
+## GoIT homework: Perfomance Testing
 # Description:
 
-Testing API of the [httpbin.org](https://httpbin.org/#/).
+Testing API of the [Poland Government Open Data](https://dane.gov.pl/en).
 
-Run at least 10 tests with cypress using public API - https://httpbin.org/#/
+Run performance tests using Artillery on public API - https://api.dane.gov.pl/doc
 
-# Test API:
+# How to run the performance tests:
 
-- open file cypress in VScode
-- open file e2e>homework-04>httpbin.cy.js
-- open terminal and type npx cypress open
-- start E2E Testing in Chrome browser
+- open file artillery in VScode
+- open file homework-05.yml
+- open terminal and type: artillery run artillery/homework-05
+- now you can read summary report in your terminal
 
 __Requirements:__
 
 - VScode
-- Cypress
-- Google Chrome
+- Node
+- Artillery
