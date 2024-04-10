@@ -11,6 +11,7 @@ Run performance tests using Artillery on public API - https://api.dane.gov.pl/do
 - open file homework-05.yml
 - open terminal and type: artillery run artillery/homework-05
 - now you can read summary report in your terminal
+- or open file 'artillery/wyniki' and read my results
 
 __Requirements:__
 
